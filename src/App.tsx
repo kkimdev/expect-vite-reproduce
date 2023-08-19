@@ -6,7 +6,7 @@ import { expect } from "expect";
 
 function App() {
   const [count, setCount] = useState(0);
-  expect(UNDEFINED).toBeUndefined();
+  expect(undefined).toBeUndefined();
 
   return (
     <>
